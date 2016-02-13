@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>comment app</title>
+	<link rel ="stylesheet"  href="css/main.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-6">
+				<h1> So far, how do you find JavaScript?</h1>
+			</div>
+			<div class="col-xs-6">
+				<form id="form">
+					<div class="comment">
+						<input id="name" placeholder="name:">
+					</div>
+					<div class="comment">
+						<textarea id="remark" placeholder="comment:"></textarea>
+					</div>
+					<div class="comment">
+						<button type="button" onclick="submitList()" class="btn btn-primary">Submit</button>
+					</div>
+				
+
+				<div id="delete">
+					<button type="button" onclick="deleteList()" class="btn btn-primary">Delete</button>
+				</div>
+			    </form>
+			</div>
+			<ul id="list">
+			
+			</ul>
+		</div>
+	</div>
+
+	<div class="soccer">
+		<img src="img/soccer.gif" class="img-responsive">
+	</div>
+
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/main.js"></script>
+<script src="js/bootstrap.js"></script>
+
+
+
+</body>
+</html>
